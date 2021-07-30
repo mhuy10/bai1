@@ -1,0 +1,23 @@
+1. npm init -y
+2. npm start => chay chuong trinh sau moi lan thay doi
+3. npm install --save-dev nodemon
+4. nodemon server =>chay chuong trinh 1 lan duy nhat (fix loi : npm install -g nodemon)
+5.   "scripts": {
+    "start":"node server",
+    "startDev":"nodemon server"
+     },
+     *nhan xet:
+     npm run start=node server => chay moi lan
+     npm run startDev=nodemon server => chay duy nhat 1 lan
+6. stop chuong trinh: ctrl+c va go : y
+
+7.npm install express ejs
+8.npm install mongoose -save
+
+##
+1.npm install express
+2.npm install ejs
+
+## ghi de phuong thuc va cai dat bien moi truong
+1.npm install method-override
+2.npm install dotenv
